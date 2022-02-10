@@ -1,9 +1,9 @@
 # GitHub-User-App
 
 
-Github User App is application to show git user and the repo, the presented in android platform android base kotlin
+Github User App is application to show git user and the repo, the presented in android platform base kotlin
 
-#library
+## library
  ```kotlin
     implementation "com.squareup.retrofit2:retrofit:2.6.2"
     implementation "com.squareup.retrofit2:converter-gson:2.6.2"
