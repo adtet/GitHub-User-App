@@ -10,13 +10,13 @@ import retrofit2.http.Query
 
 interface Api {
     @GET("search/users")
-    @Headers("Authorization: token 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")
+//    @Headers("Authorization: token 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")
     fun getSearchUsers(
         @Query("q") query:String
     ):Call<reponseGetSearchUser>
 
     @GET("users/{login}")
-    @Headers("Authorization: token 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")
+//    @Headers("Authorization: token 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")
     fun getDetailUser(
             @Path("login") login:String
     ):Call<reponseGetDetailUser>
