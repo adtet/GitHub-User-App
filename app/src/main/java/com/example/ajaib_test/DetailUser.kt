@@ -31,6 +31,7 @@ class DetailUser : AppCompatActivity() {
 
         txtusername = findViewById(R.id.txtusername_detail_user)
 
+
     }
 
 
