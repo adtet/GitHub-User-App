@@ -106,6 +106,7 @@ class DetailUser : AppCompatActivity() {
                         txtemail.text = items.email
                         txtfollowing.text = items.following.toString()
                         txtfollower.text = items.followers.toString()
+                        txtlocation.text = items.location
 
                         get_repos(login)
                     }

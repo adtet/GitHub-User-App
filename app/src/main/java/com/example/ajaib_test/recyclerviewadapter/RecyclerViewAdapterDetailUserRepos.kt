@@ -43,7 +43,7 @@ class RecyclerViewAdapterDetailUserRepos(val avatar_url:String,val namelist:Arra
         holder.txtname.setText(namelist.get(position))
         holder.txtdesc.setText(descriptionlist.get(position))
         holder.txtstar.setText(starlist.get(position))
-        holder.txtlastupdate.setText("Update "+lastupdatelist.get(position))
+        holder.txtlastupdate.setText("Last Update "+lastupdatelist.get(position))
     }
 
     override fun getItemCount(): Int {
