@@ -2,6 +2,7 @@ package com.example.ajaib_test.api
 
 import com.example.ajaib_test.model.reponseGetDetailUser
 import com.example.ajaib_test.model.reponseGetSearchUser
+import com.example.ajaib_test.model.responseGetUserRepos
 import retrofit2.Call
 import retrofit2.http.GET
 import retrofit2.http.Headers
@@ -20,6 +21,11 @@ interface Api {
     fun getDetailUser(
             @Path("login") login:String
     ):Call<reponseGetDetailUser>
+
+    @GET("/users/{login}/repos")
+    fun getListRepos(
+        @Path("login") login: String
+    ):Call<List<responseGetUserRepos>>
 
 
 
